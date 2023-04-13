@@ -1,0 +1,32 @@
+{
+  "name": "tdd-unit-tests",
+  "version": "0.0.1",
+  "description": "TDD Unit Tests base project",
+  "author": {
+    "name": "pstovik"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "ci-check": "tsc --noEmit && npm run test",
+    "test": "jasmine --config=./jasmine.json",
+    "testw": "nodemon --watch src --watch spec --ext ts --exec npm run test",
+    "start": "ts-node src/index.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.15.11",
+    "jasmine": "^4.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7",
+    "nodemon": "^2.0.22"
+  },
+  "prettier": {
+    "printWidth": 140,
+    "tabWidth": 4,
+    "parser": "typescript"
+  }
+}
