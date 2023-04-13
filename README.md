@@ -1,2 +1,2 @@
 # tdd2023
-Base project setup for TDD training
+Basic nodejs+typescript project setup for TDD training
