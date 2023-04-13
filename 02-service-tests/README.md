@@ -5,5 +5,5 @@
 ```bash
 npm i # to install node_modules
 npm run testw # for continuos watching
-npm run start # for server start / emo (inmemory db, mocking mongodb interface)
+npm run start # for server start / demo (inmemory db, mocking mongodb interface)
 ```
