@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "incremental": true,
+        "lib": ["es2019"]
+    }
+} 
